@@ -6,5 +6,6 @@ resource "aws_instance" "web" {
     Name = "Jaganmohan"
     service = "app-layer"
     BU = "test-lab"
+    modify = "modified from git ui"
   }
 }
